@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ Creates\ a\ predetermined\ {@link\ Game},\ inserts\ it\ into\ an\ {@link\ Engine}\n\ and\ plays\ the\ game.\n\n\ @throws\ InterruptedException\ if\ the\ game\ is\ interrupted\ while\ paused\n
+numComments=1

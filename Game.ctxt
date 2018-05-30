@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Player\ getPlayer()
+comment0.text=\n\ Get\ the\ player\ for\ the\ game\n\n\ @return\ a\ player\ for\ the\ game\n\ @see\ Player\n
+numComments=1

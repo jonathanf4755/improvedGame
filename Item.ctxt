@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getName()
+comment0.text=\n\ Gets\ the\ name\ of\ the\ item\ in\ the\ text\ adventure\ game.\n\n\ @return\ the\ name\ of\ the\ item\n
+comment1.params=
+comment1.target=java.lang.String\ getDescription()
+comment1.text=\n\ Gets\ the\ description\ of\ the\ item\ in\ the\ text\ adventure\ game.\n\n\ @return\ the\ description\ of\ the\ item\ \ \ \ \ \n
+comment2.params=
+comment2.target=int\ getCount()
+comment2.text=\n\ Gets\ the\ count\ of\ how\ many\ instances\ of\ the\ item\ there\ are.\ \n\ For\ example,\ a\ pack\ of\ gum\ item\ might\ have\ 5\ pieces\ of\ gum.\n\n\ @return\ the\ number\ of\ instances\ in\ this\ item\n
+comment3.params=positiveNum
+comment3.target=void\ use(int)
+comment3.text=\n\ Uses\ a\ positive\ number\ of\ instances\ of\ the\ item.\ \n\n\ @param\ positiveNum\ a\ positive\ number\ of\ items\ to\ use\n\ @throws\ IllegalArgumentException\ if\ positive\ num\ is\ non-positive\ OR\n\ \ \ \ \ \ \ \ \ exceeds\ the\ count\ of\ instances\ of\ the\ item\n
+comment4.params=sameKind
+comment4.target=void\ combine(Item)
+comment4.text=\n\ Combines\ two\ items\ of\ the\ same\ kind\ into\ one.\n\ Items\ of\ the\ same\ kind\ have\ the\ same\ name\ and\ description.\n\n\ @param\ sameKindOfItem\ an\ item\ that\ has\ the\ same\ name\ and\ description\n\ \ \ \ \ \ \ \ as\ this\ item\n\ @throws\ IllegalArgumentException\ if\ sameKindOfItem\ does\ not\ have\n\ \ \ \ \ \ \ \ \ the\ same\ name\ as\ this\ item\ OR\ does\ not\ have\ the\ same\ description\n\ \ \ \ \ \ \ \ \ as\ this\ item\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

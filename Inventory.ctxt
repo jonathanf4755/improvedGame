@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=itemName
+comment0.target=boolean\ hasItem(java.lang.String)
+comment0.text=\n\ Determines\ whether\ or\ not\ an\ {@link\ Item}\ with\ the\ itemName\ is\ in\ the\n\ inventory\n\n\ @param\ itemName\ the\ name\ of\ the\ item\n\ @return\ true\ if\ an\ item\ with\ itemName\ is\ in\ the\ inventory,\ false\n\ \ \ \ \ \ \ \ \ otherwise\n
+numComments=1

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ start()
+comment0.text=\n\ Starts\ the\ Engine\ in\ the\ initial\ game\ state.\ \n\ Should\ be\ called\ when\ attempting\ to\ start\ the\ game.\n\n\ @throws\ InterruptedException\ if\ the\ game\ is\ interrupted\ while\ paused\n
+comment1.params=
+comment1.target=boolean\ isGameDone()
+comment1.text=\n\ Determines\ if\ the\ engine\ has\ completed\ a\ game.\n\ Should\ be\ used\ to\ check\ if\ the\ game\ is\ over\ before\ transitioning\ to\ the\n\ next\ game\ state.\n\ Should\ only\ be\ called\ AFTER\ the\ engine\ has\ been\ started\ via\ \n\ {@link\ \#start()}.\n\n\ @return\ true\ when\ the\ game\ is\ over,\ false\ otherwise\n
+comment2.params=
+comment2.target=void\ goToNextState()
+comment2.text=\n\ Transitions\ the\ engine\ to\ the\ next\ game\ state.\n\ Should\ only\ be\ called\ AFTER\ the\ engine\ has\ been\ started\ via\n\ {@link\ \#start()}\ AND\ it\ has\ been\ confirmed\ that\ the\ game\ is\n\ NOT\ done\ via\ {@link\ isGameDone()}.\n\n\ @throws\ InterruptedException\ if\ game\ is\ interrupted\ while\ paused\n\ @throws\ IllegalStateException\ if\ game\ is\ not\ started\ OR\ game\ is\ done\n
+numComments=3

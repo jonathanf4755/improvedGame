@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=g
+comment0.target=SimpleEngine(Game)
+comment0.text=\n\ Constructor\n\n\ @param\ game\ The\ game\ that\ the\ engine\ will\ play\n
+comment1.params=
+comment1.target=void\ start()
+comment2.params=
+comment2.target=boolean\ isGameDone()
+comment3.params=
+comment3.target=void\ goToNextState()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
