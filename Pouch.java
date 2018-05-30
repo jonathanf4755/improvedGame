@@ -15,7 +15,6 @@ public class Pouch implements Inventory
         slots = new ArrayList<Item>();
     }
     
-    
     /**
      * Adds an {@link Item} to the inventory
      *

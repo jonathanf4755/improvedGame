@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getName()
+comment0.text=\n\ Gets\ the\ name\ of\ the\ location\ in\ the\ text\ adventure\ game.\n\ Every\ location\ in\ a\ {@link\ Game}\ should\ have\ a\ unique\ name\ so\ that\ an\n\ {@link\ Engine}\ can\ properly\ track\ the\ state\ of\ the\ game.\n\n\ @return\ a\ unique\ identifier\ for\ each\ level\n
+comment1.params=p
+comment1.target=java.lang.String\ enter(Player)
+comment1.text=\n\ Causes\ the\ {@link\ Player}\ to\ enter\ the\ location\ and\ returns\n\ the\ name\ of\ the\ next\ game\ location.\n\n\ @param\ p\ the\ {@link\ Player}\ entering\ the\ location\n\ @return\ the\ name\ of\ the\ next\ location\n\ @throws\ InterruptedException\ if\ the\ game\ is\ paused\ and\ gets\ interrupted\n
+comment2.params=
+comment2.target=java.lang.String\ getEnemyName()
+comment3.params=
+comment3.target=int\ getEnemyHealth()
+comment4.params=delta
+comment4.target=int\ changeEnemyHealth(int)
+numComments=5

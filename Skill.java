@@ -5,6 +5,9 @@ public class Skill
     private String skillDescription;
     private int missPercentage;
     private int critPercentage;
+    private boolean missChance;
+    private boolean critChange;
+    
     
     public Skill(int dmg, String desc, String name, int miss, int crit)
     {
@@ -67,5 +70,25 @@ public class Skill
         {
             throw new IllegalArgumentException("Damage cannot be changed, please use a valid decimal number");
         }
+    }
+    
+    private boolean missCalc(Skill s) 
+    {
+        int missPercent = (int)(s.getMissPercentage() * Math.random());
+        if(missPercent < (s.getMissPercentage() / 2))
+        {
+           return true; 
+        }
+        return false;
+    }
+    
+    private boolean critCalc(Skill s) 
+    {
+        int missPercent = (int)(s.getMissPercentage() * Math.random());
+        if(missPercent < (s.getMissPercentage() / 2))
+        {
+           return false; 
+        }
+        return true;
     }
     }

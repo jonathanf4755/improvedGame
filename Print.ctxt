@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=time\ text
+comment0.target=Print(int,\ java.lang.String)
+comment1.params=
+comment1.target=void\ printText()
+comment2.params=
+comment2.target=void\ printLetterByLetter()
+numComments=3
