@@ -9,7 +9,11 @@ public class TestPrint
 {
     public void testLetterByLetter() throws InterruptedException
     {
-        Print p = new Print(1000, "Hi my name is Jonathan");
+        String enemyName = "Powerful Beast";
+        String descOfFoe = "He is a powerful beast";
+        Print p = new Print(100, "Hi my name is Jonathan\n");
+        p.printLetterByLetter();
+        p = new Print(100, "You encounter a\n" + enemyName + "\n" + descOfFoe + "\n");
         p.printLetterByLetter();
     }
 }

@@ -9,6 +9,12 @@ public class Print
        textToPrint = text;
     }
     
+    public Print()
+    {
+        delay = 0;
+        textToPrint = "";
+    }
+    
     public void printText() throws InterruptedException
     {
         if(delay >= 0)
