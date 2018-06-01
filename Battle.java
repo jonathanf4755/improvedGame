@@ -63,6 +63,23 @@ public class Battle implements Location
     {
         Print a = new Print();
         Scanner sc = new Scanner(System.in);
+        String userInputNumber = "";
+        String letters = "abcdefghijklmnop";
+        
+        List<Skill> playerSkills = new ArrayList<Skill>();
+        ItemSkill skills = (ItemSkill)(p.getInventory().getItem("These are your available actions"));
+        for(int i = 0; i < skillsAllowed.size(); i++)
+        {
+            for(int j = 0; j < skills.getCount(); j++)
+            {
+               if(skills.getSkill(j).getSkillName().equals(skillsAllowed.get(i)))
+               {
+                   playerSkills.add(skills.getSkill(j));
+               }
+            }
+        }
+        
+        
         while(p.getHealth() > 0 && enemytHealth > 0)
         {
             a = new Print(1000, "Here are your available Skills:\n");
@@ -71,6 +88,15 @@ public class Battle implements Location
             {
                 a = new Print(1000, skillsAllowed.get(i) + " " + i + "\n");
                 a.printLetterByLetter();
+            }
+            a = new Print(1000, "Choose a skill\n");
+            a.printLetterByLetter();
+            userInputNumber = sc.next().toLowerCase();
+            if(letters.indexOf(userInputNumber.substring(0, 1)) > -1)
+            {
+                a = new Print(100, "Please choose a valid skill\n");
+                a.printText();
+                userInputNumber = sc.next().toLowerCase();
             }
         }
     }
